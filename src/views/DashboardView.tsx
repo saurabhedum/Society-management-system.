@@ -135,8 +135,7 @@ export function DashboardView() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.1 }}
-          whileHover={{ scale: 1.05, y: -5 }} 
-          className="group"
+          className="group premium-hover"
         >
           <Card className="overflow-hidden relative border-white/5 bg-white/5 backdrop-blur-md">
             <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-30 transition-opacity">
@@ -160,8 +159,7 @@ export function DashboardView() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2 }}
-          whileHover={{ scale: 1.05, y: -5 }}
-          className="group"
+          className="group premium-hover"
         >
           <Card className="overflow-hidden relative border-white/5 bg-white/5 backdrop-blur-md">
             <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-30 transition-opacity">
@@ -184,8 +182,7 @@ export function DashboardView() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3 }}
-          whileHover={{ scale: 1.05, y: -5 }}
-          className="group"
+          className="group premium-hover"
         >
           <Card className="overflow-hidden relative border-white/5 bg-white/5 backdrop-blur-md">
             <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-30 transition-opacity">
@@ -206,8 +203,7 @@ export function DashboardView() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4 }}
-          whileHover={{ scale: 1.05, y: -5 }}
-          className="group"
+          className="group premium-hover"
         >
           <Card className="overflow-hidden relative border-white/5 bg-white/5 backdrop-blur-md">
             <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-30 transition-opacity">
@@ -228,8 +224,7 @@ export function DashboardView() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.5 }}
-          whileHover={{ scale: 1.05, y: -5 }}
-          className="group"
+          className="group premium-hover"
         >
           <Card className="overflow-hidden relative border-white/5 bg-white/5 backdrop-blur-md border-indigo-500/20 shadow-indigo-500/5">
             <div className="absolute top-0 right-0 p-2 opacity-10 group-hover:opacity-30 transition-opacity">
@@ -253,8 +248,8 @@ export function DashboardView() {
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
-        <motion.div className="col-span-full lg:col-span-4" whileHover={{ scale: 1.01 }} transition={{ type: "spring", stiffness: 300 }}>
-          <Card className="h-full">
+        <motion.div className="col-span-full lg:col-span-4 h-full">
+          <Card className="h-full premium-hover">
             <CardHeader>
               <CardTitle>Collection vs Expected</CardTitle>
             </CardHeader>
@@ -284,8 +279,8 @@ export function DashboardView() {
             </CardContent>
           </Card>
         </motion.div>
-        <motion.div className="col-span-full lg:col-span-3" whileHover={{ scale: 1.01 }} transition={{ type: "spring", stiffness: 300 }}>
-          <Card className="h-full">
+        <motion.div className="col-span-full lg:col-span-3 h-full">
+          <Card className="h-full premium-hover">
             <CardHeader>
               <CardTitle>Account Status Distribution</CardTitle>
             </CardHeader>
@@ -324,8 +319,8 @@ export function DashboardView() {
       </div>
 
       <div className="grid gap-4 grid-cols-1">
-        <motion.div className="col-span-1" whileHover={{ scale: 1.01 }} transition={{ type: "spring", stiffness: 300 }}>
-          <Card className="h-full">
+        <motion.div className="col-span-1 h-full">
+          <Card className="h-full premium-hover">
             <CardHeader>
               <CardTitle>Recent Activity</CardTitle>
             </CardHeader>
