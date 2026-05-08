@@ -159,6 +159,10 @@ service cloud.firestore {
       allow delete: if isAuthenticated() && (settingId == request.auth.uid || isAdmin());
     }
 
+    match /test/{documentId} {
+      allow read: if true;
+    }
+
     match /providers/{providerId} {
       allow read: if isAuthenticated();
       allow write: if isAdmin();
