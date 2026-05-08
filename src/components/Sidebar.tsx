@@ -47,6 +47,11 @@ const themes = [
   { id: 'midnight', name: 'Midnight', color: '#1a202c' },
   { id: 'accessible-high', name: 'High Contrast', color: '#ffffff' },
   { id: 'color-blind', name: 'Color Blind', color: '#004488' },
+  { id: 'slate-orange', name: 'Slate Orange', color: '#272e38' },
+  { id: 'vibrant-neon', name: 'Vibrant Neon', color: '#1a1c29' },
+  { id: 'cyber-glow', name: 'Cyber Glow', color: '#1f2334' },
+  { id: 'navy-peach', name: 'Navy Peach', color: '#1c212b' },
+  { id: 'frost-rainbow', name: 'Frost Spectrum', color: '#f1f3f6' },
 ];
 
 interface SidebarProps {
